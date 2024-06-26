@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  border: 0;
+  font-family: "Karla", sans-serif;
+  font-weight: 400;
+}
+.homePage {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: gainsboro;
+}
+.mainBody {
+  width: 45%;
+  box-sizing: border-box;
+}
+.up {
+  background-color: white;
+  padding: 40px;
+  border-radius: 10px 10px 0 0;
+}
+.head1 {
+  font-size: 32px;
+  color: hsl(179, 62%, 43%);
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+.head2 {
+  font-size: 20px;
+  color: hsl(71, 73%, 54%);
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+.text {
+  color: hsl(218, 22%, 67%);
+  font-weight: 700;
+}
+.down {
+  display: flex;
+}
+.col {
+  padding: 40px;
+  width: 50%;
+  box-sizing: border-box;
+  color: white;
+}
+.left {
+  background-color: hsl(179, 62%, 43%);
+}
+.leftText1 {
+  color: white;
+  font-size: 1.2em;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+.leftText2 {
+  color: hsl(218, 22%, 67%);
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.leftText2 span {
+  color: white;
+  font-size: 2em;
+  font-weight: 700;
+  margin-right: 10px;
+}
+.leftText3 {
+  margin-bottom: 15px;
+}
+button {
+  width: 100%;
+  padding: 13px;
+  background-color: hsl(71, 73%, 54%);
+  border-radius: 5px;
+}
+.right {
+  background-color: hsl(179, 62%, 43%);
+  opacity: 0.8;
+  color: hsl(218, 22%, 67%);
+}
+
+footer {
+  position: relative;
+  bottom: 0;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media only screen and (max-width: 800px) {
+  .mainBody {
+    width: 82%;
+  }
+  .up {
+    padding: 20px;
+  }
+  .down {
+    flex-direction: column;
+  }
+  .col {
+    width: 100%;
+    padding: 20px;
+  }
+  .right {
+    border-radius: 0 0 12px 12px;
+  }
+}
